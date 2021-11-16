@@ -47,10 +47,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomAction1.cs" />
-    <Compile Include="CustomAction1Config.cs" />
-    <Compile Include="CustomActions\ValidateWorkerRequest.cs" />
-    <Compile Include="CustomActions\ValidateWorkerRequestConfig.cs" />
+    <Compile Include="CustomActions\RegisterWorkerRequest.cs" />
+    <Compile Include="CustomActions\RegisterWorkerRequestConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

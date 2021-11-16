@@ -5,16 +5,13 @@ namespace WebCon.BpsExt.Training.CustomActions
 {
     public class ValidateWorkerRequestConfig : PluginConfiguration
     {
-        //[ConfigEditableText(DisplayName = "Source form field ID")]
-        //public string SourceFormFieldID { get; set; }
+        [ConfigEditableText(DisplayName = "Webservice URL", DefaultText = "http://srv38/sdktraining/api/erp/validate", IsRequired = true)]
+        public string WebServiceUrl { get; set; }
 
-        //[ConfigEditableText(DisplayName = "Destination form field ID")]
-        //public string DestinationFormFieldID { get; set; }
+        [ConfigEditableText(DisplayName = "Applying person", IsRequired = true)]
+        public string Person { get; set; }
 
-        //[ConfigEditableText(DisplayName = "Price form field ID", Description = "ID of the form field which contains price of the product")]
-        //public string PriceFormFieldID { get; set; }
-
-        //[ConfigEditableInteger(DisplayName = "Price")]
-        //public int Price { get; set; }
+        [ConfigEditableText(DisplayName = "Requested amount", IsRequired = true)]
+        public decimal Amount { get; set; }
     }
 }

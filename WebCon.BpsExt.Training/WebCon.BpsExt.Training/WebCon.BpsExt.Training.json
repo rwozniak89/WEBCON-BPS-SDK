@@ -7,14 +7,6 @@
     "Class": "WebCon.BpsExt.Training.CustomActions.ValidateWorkerRequest",
     "Type": "CustomAction"
   },
-  {
-    "Guid": "2e346da0-3467-40b2-acb7-42770e67f5f1",
-    "Name": "CustomAction1",
-    "Description": "",
-    "Assembly": "WebCon.BpsExt.Training",
-    "Class": "WebCon.BpsExt.Training.CustomAction1",
-    "Type": "CustomAction"
-  }
   //{
   //  "Guid": "10356cc1-b08f-4300-ab35-b529ee6d1f54",
   //  "Name": "Sample standard action",
