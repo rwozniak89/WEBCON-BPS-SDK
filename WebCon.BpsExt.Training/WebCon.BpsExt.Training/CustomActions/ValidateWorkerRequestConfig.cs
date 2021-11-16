@@ -17,6 +17,9 @@ namespace WebCon.BpsExt.Training.CustomActions
 
         [ConfigEditableTranslationsList("Exception messages", AdditionalCultures = "en")]
         public ValidationMessages ValidationMessages { get; set; }
+
+        [ConfigEditableConnectionID("Poł do serwisu")]
+        public int? ConnectionID { get; set; }
     }
 
     public class ValidationMessages
