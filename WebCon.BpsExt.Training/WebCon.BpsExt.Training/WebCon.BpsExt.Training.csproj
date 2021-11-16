@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="CustomActions\RegisterWorkerRequest.cs" />
     <Compile Include="CustomActions\RegisterWorkerRequestConfig.cs" />
+    <Compile Include="CustomActions\StartNewWorkflowAction.cs" />
+    <Compile Include="CustomActions\StartNewWorkflowActionConfig.cs" />
     <Compile Include="CustomActions\ValidateWorkerRequest.cs" />
     <Compile Include="CustomActions\ValidateWorkerRequestConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

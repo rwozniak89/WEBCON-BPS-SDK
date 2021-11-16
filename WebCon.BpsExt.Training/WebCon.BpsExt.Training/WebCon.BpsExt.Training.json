@@ -1,5 +1,13 @@
 [
   {
+    "Guid": "8328d428-7f22-4dba-a31a-cc56ac27e16e",
+    "Name": "StartNewWorkflowAction",
+    "Description": "",
+    "Assembly": "WebCon.BpsExt.Training",
+    "Class": "WebCon.BpsExt.Training.CustomActions.StartNewWorkflowAction",
+    "Type": "CustomAction"
+  },
+  {
     "Guid": "7bd24892-282e-42c8-8d5b-13163c0a5ba4",
     "Name": "RegisterWorkerRequest",
     "Description": "",
