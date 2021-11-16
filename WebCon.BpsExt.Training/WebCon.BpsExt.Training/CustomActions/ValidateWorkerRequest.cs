@@ -2,6 +2,7 @@
 using System;
 using System.Net.Http;
 using System.Text;
+using System.Threading.Tasks;
 using WebCon.WorkFlow.SDK.ActionPlugins;
 using WebCon.WorkFlow.SDK.ActionPlugins.Model;
 
@@ -38,18 +39,18 @@ namespace WebCon.BpsExt.Training.CustomActions
 
         private bool IsRequestValid(RequestData requestData)
         {
-            return CallERPService<bool>(Configuration.WebServiceUrl, requestData);
+            return CallERPService<bool>(Configuration.WebServiceUrl, requestData).Result;
         }
 
-        private T CallERPService<T>(string url, RequestData data)
+        private async Task<T> CallERPService<T>(string url, RequestData data)
         {
             string jsonRequest = JsonConvert.SerializeObject(data);
             var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json");
 
             var client = new HttpClient();
-            var response = client.PostAsync(url, content).Result;
+            var response = await client.PostAsync(url, content);
             response.EnsureSuccessStatusCode();
-            var result = response.Content.ReadAsStringAsync().Result;
+            var result = await response.Content.ReadAsStringAsync();
             T jsonResult = JsonConvert.DeserializeObject<T>(result);
             return jsonResult;
         }
