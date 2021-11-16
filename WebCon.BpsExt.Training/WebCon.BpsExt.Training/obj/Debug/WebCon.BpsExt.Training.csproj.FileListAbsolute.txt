@@ -10,3 +10,4 @@ C:\Users\user.38a\source\repos\WebCon.BpsExt.Training\WebCon.BpsExt.Training\obj
 C:\Users\user.38a\source\repos\WebCon.BpsExt.Training\WebCon.BpsExt.Training\obj\Debug\WebCon.BpsExt.Training.csproj.CopyComplete
 C:\Users\user.38a\source\repos\WebCon.BpsExt.Training\WebCon.BpsExt.Training\obj\Debug\WebCon.BpsExt.Training.dll
 C:\Users\user.38a\source\repos\WebCon.BpsExt.Training\WebCon.BpsExt.Training\obj\Debug\WebCon.BpsExt.Training.pdb
+C:\Users\user.38a\source\repos\WebCon.BpsExt.Training\WebCon.BpsExt.Training\obj\Debug\WebCon.BpsExt.Training.csprojAssemblyReference.cache

@@ -18,7 +18,8 @@ namespace WebCon.BpsExt.Training.CustomActions
                 if (!IsRequestValid(new RequestData(Configuration.Person, Configuration.Amount)))
                 {
                     args.HasErrors = true;
-                    args.Message = string.Format("You can't request an amount of {0}", Configuration.Amount);
+                    args.Message = string.Format(Configuration.ValidationMessages.InvalidRequestMessage, Configuration.Amount);
+                        //string.Format("You can't request an amount of {0}", Configuration.Amount);
                 }
             }
             catch (Exception ex)
