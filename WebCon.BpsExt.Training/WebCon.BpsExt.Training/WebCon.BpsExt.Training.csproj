@@ -54,6 +54,8 @@
     <Compile Include="CustomActions\StartNewWorkflowActionConfig.cs" />
     <Compile Include="CustomActions\ValidateWorkerRequest.cs" />
     <Compile Include="CustomActions\ValidateWorkerRequestConfig.cs" />
+    <Compile Include="CustomBusinessRules\ValidateSuperior.cs" />
+    <Compile Include="CustomBusinessRules\ValidateSuperiorConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

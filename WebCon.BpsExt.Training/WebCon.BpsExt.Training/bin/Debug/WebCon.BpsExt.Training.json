@@ -1,5 +1,13 @@
 [
   {
+    "Guid": "5dda0b57-0d43-4afb-a4b6-c687677fda22",
+    "Name": "ValidateSuperior",
+    "Description": "",
+    "Assembly": "WebCon.BpsExt.Training",
+    "Class": "WebCon.BpsExt.Training.CustomBusinessRules.ValidateSuperior",
+    "Type": "CustomBusinessRule"
+  },
+  {
     "Guid": "8328d428-7f22-4dba-a31a-cc56ac27e16e",
     "Name": "StartNewWorkflowAction",
     "Description": "",
