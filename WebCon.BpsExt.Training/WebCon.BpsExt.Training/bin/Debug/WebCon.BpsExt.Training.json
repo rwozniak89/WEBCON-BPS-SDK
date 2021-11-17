@@ -1,5 +1,13 @@
 [
   {
+    "Guid": "18f13e6f-87f4-4343-8fb3-14ba3b5f31c4",
+    "Name": "RequestItemsDataSource",
+    "Description": "",
+    "Assembly": "WebCon.BpsExt.Training",
+    "Class": "WebCon.BpsExt.Training.CustomDataSources.RequestItemsDataSource",
+    "Type": "CustomDataSource"
+  },
+  {
     "Guid": "5dda0b57-0d43-4afb-a4b6-c687677fda22",
     "Name": "ValidateSuperior",
     "Description": "",

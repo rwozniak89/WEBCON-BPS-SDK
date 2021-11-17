@@ -56,6 +56,8 @@
     <Compile Include="CustomActions\ValidateWorkerRequestConfig.cs" />
     <Compile Include="CustomBusinessRules\ValidateSuperior.cs" />
     <Compile Include="CustomBusinessRules\ValidateSuperiorConfig.cs" />
+    <Compile Include="CustomDataSources\RequestItemsDataSource.cs" />
+    <Compile Include="CustomDataSources\RequestItemsDataSourceConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
