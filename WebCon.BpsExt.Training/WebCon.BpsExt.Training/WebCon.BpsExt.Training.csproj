@@ -58,6 +58,8 @@
     <Compile Include="CustomBusinessRules\ValidateSuperiorConfig.cs" />
     <Compile Include="CustomDataSources\RequestItemsDataSource.cs" />
     <Compile Include="CustomDataSources\RequestItemsDataSourceConfig.cs" />
+    <Compile Include="DataEncryption\EncryptionFieldExtension.cs" />
+    <Compile Include="DataEncryption\EncryptionFieldExtensionConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

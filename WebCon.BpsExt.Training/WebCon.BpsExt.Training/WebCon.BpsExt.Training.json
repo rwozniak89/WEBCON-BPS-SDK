@@ -1,5 +1,13 @@
 [
   {
+    "Guid": "c18566a4-2dcb-4733-82e8-d28cdbd11067",
+    "Name": "EncryptionFieldExtension",
+    "Description": "",
+    "Assembly": "WebCon.BpsExt.Training",
+    "Class": "WebCon.BpsExt.Training.DataEncryption.EncryptionFieldExtension",
+    "Type": "FormFieldExtension"
+  },
+  {
     "Guid": "18f13e6f-87f4-4343-8fb3-14ba3b5f31c4",
     "Name": "RequestItemsDataSource",
     "Description": "",
