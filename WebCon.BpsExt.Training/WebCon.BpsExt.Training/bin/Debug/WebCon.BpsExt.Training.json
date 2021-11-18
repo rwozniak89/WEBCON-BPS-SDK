@@ -1,5 +1,14 @@
 [
   {
+    "Guid": "669bc465-37b0-4cb4-b536-c3df133811f1",
+    "Name": "TaxID",
+    "Description": "",
+    "Assembly": "WebCon.BpsExt.Training",
+    "Class": "WebCon.BpsExt.Training.TaxIdFormField.TaxID",
+    "Type": "FormFieldExtension",
+    "BPSControl": "TaxIdentificationNumberControl"
+  },
+  {
     "Guid": "dea79b9e-cde8-4b33-b4d7-a6400301cbbf",
     "Name": "PostCodeFormField",
     "Description": "",

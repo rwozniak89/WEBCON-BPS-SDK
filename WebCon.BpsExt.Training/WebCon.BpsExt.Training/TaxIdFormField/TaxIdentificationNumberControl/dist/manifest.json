@@ -1,0 +1,13 @@
+{
+  "packageName": "TaxIdentificationNumberControl",
+  "description": "",
+  "solutionId": "5f376110-80cc-11ea-a0b6-01e378cf750f",
+  "files": {
+    "component": "./src/CustomControlComponent.js",
+    "emptyValueValidator": "./src/EmptyValueValidator.js",
+    "additionalValidator": "./src/AdditionalValidator.js",
+    "assets": {
+      "clear": "./src/assets/clear.png"
+    }
+  }
+}

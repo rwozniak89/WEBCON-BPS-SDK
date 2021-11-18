@@ -5,7 +5,8 @@
     "Description": "",
     "Assembly": "WebCon.BpsExt.Training",
     "Class": "WebCon.BpsExt.Training.TaxIdFormField.TaxID",
-    "Type": "FormFieldExtension"
+    "Type": "FormFieldExtension",
+    "BPSControl": "TaxIdentificationNumberControl"
   },
   {
     "Guid": "dea79b9e-cde8-4b33-b4d7-a6400301cbbf",
