@@ -1,0 +1,12 @@
+{
+  "packageName": "PostCodeFormField",
+  "solutionId": "bc19c114-ba5b-4fb1-a7cf-fe4f8709c052",
+  "files": {
+    "component": "./src/CustomControlComponent.js",
+    "emptyValueValidator": "./src/EmptyValueValidator.js",
+    "additionalValidator": "./src/AdditionalValidator.js",
+    "assets": {
+      "clear": "./src/assets/clear.png"
+    }
+  }
+}

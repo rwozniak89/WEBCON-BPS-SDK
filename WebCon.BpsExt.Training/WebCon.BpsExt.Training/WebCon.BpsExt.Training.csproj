@@ -65,6 +65,11 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="PostCodeFormField\.eslintrc.json" />
+    <None Include="PostCodeFormField\.prettierrc" />
+    <None Include="PostCodeFormField\package.json" />
+    <None Include="PostCodeFormField\README.md" />
+    <None Include="PostCodeFormField\src\manifest.json" />
     <None Include="WebCon.BpsExt.Training.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -72,6 +77,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Publish\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PostCodeFormField\gulpfile.js" />
+    <Content Include="PostCodeFormField\src\AdditionalValidator.js" />
+    <Content Include="PostCodeFormField\src\assets\clear.png" />
+    <Content Include="PostCodeFormField\src\components\PostCode.css" />
+    <Content Include="PostCodeFormField\src\components\PostCode.js" />
+    <Content Include="PostCodeFormField\src\components\PostCodeFragment.js" />
+    <Content Include="PostCodeFormField\src\CustomControlComponent.js" />
+    <Content Include="PostCodeFormField\src\EmptyValueValidator.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

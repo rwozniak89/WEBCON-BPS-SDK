@@ -1,5 +1,12 @@
 [
   {
+    "Guid": "dea79b9e-cde8-4b33-b4d7-a6400301cbbf",
+    "Name": "PostCodeFormField",
+    "Description": "",
+    "Type": "FormFieldExtension",
+    "BPSControl": "PostCodeFormField"
+  },
+  {
     "Guid": "c18566a4-2dcb-4733-82e8-d28cdbd11067",
     "Name": "EncryptionFieldExtension",
     "Description": "",
